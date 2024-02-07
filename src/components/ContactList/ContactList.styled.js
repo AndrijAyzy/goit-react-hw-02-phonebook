@@ -16,8 +16,17 @@ export const ListItem = styled.li`
 `;
 
 export const Button = styled.button`
-  padding: 5px 20px;
-  color: #333340;
-  border: 1px solid #333340;
+    margin-top: 10px;
+  width: 100px;
+  padding: 0px;
+  height: 25px;
+  color: #black;
+  border: 1px solid #black;
   border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.25s linear 0s;
+  &:hover,
+  &:focus {
+    border: 1px solid #white; background: #4682B4;
+    transform: scale(1.1);
 `;
