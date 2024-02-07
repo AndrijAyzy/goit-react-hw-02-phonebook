@@ -15,7 +15,6 @@ export const Input = styled(Field)`
   padding-top: 5px;
   padding-bottom: 5px;
   border: 1px solid #333340;
-  border-radius: 5px;
 `;
 
 export const Button = styled.button`
@@ -25,4 +24,5 @@ export const Button = styled.button`
   color: #333340;
   border: 1px solid #333340;
   border-radius: 5px;
+  cursor: pointer;
 `;
